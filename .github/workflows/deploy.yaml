@@ -1,5 +1,4 @@
 name: Build CI/CD
-a
 on:
   push:
     branches:
