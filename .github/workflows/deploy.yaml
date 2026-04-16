@@ -67,7 +67,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t ghcr.io/Marius20031/ci_cd_lab:latest .
+        run: docker build -t ghcr.io/marius20031/ci_cd_lab:latest .
 
       - name: Push Docker image
-        run: docker push ghcr.io/Marius20031/ci_cd_lab:latest
+        run: docker push ghcr.io/marius20031/ci_cd_lab:latest
